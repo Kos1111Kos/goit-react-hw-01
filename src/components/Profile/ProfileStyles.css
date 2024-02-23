@@ -1,0 +1,75 @@
+.card {
+  width: 340px;
+  margin: 0px auto;
+  padding: 70px 50px;
+  background-color: darkgrey;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+}
+.cardCont {
+  width: 240px;
+  height: 220px;
+  margin: 0px auto;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+}
+
+.cardImg {
+  width: 100px;
+  display: block;
+  margin: 0px auto 20px;
+  border-radius: 50%;
+}
+.cardName {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.cardTag {
+  text-align: center;
+  color: darkgrey;
+  margin-bottom: 10px;
+}
+
+.cardLocation {
+  text-align: center;
+  color: darkgrey;
+}
+.cardItems {
+  width: 302px;
+  height: 100px;
+  background-color: gainsboro;
+  margin: 0px auto;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: rgba(43, 41, 41, 0.2) 0px 2px 4px;
+  list-style-type: none;
+}
+.cardList {
+  display: flex;
+  flex-direction: column;
+  /* -webkit-box-align: center; */
+  align-items: center;
+  /* -webkit-box-pack: center; */
+  justify-content: center;
+  border-right: 1px solid rgb(131, 126, 126);
+  flex: 1 1 0%;
+  text-align: center;
+}
+.cardListText {
+  display: flex;
+  /* -webkit-box-align: center; */
+  align-items: center;
+  /* -webkit-box-pack: center; */
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+}
