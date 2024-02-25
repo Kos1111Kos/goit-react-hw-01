@@ -1,7 +1,6 @@
 import css from "./Profile.module.css";
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
-  // const Profile = ({ image, name, tag, location, stats }) => {
   return (
     <div className={css.card}>
       <div className={css.cardCont}>

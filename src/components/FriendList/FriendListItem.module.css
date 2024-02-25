@@ -1,0 +1,26 @@
+.friendList {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  padding-top: 10px;
+
+  margin-top: 100px;
+}
+.name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  color: rgb(51, 51, 51);
+}
+.status {
+  font-weight: bold;
+}
+
+.statusOnline {
+  color: rgb(0, 128, 85);
+}
+
+.statusOffline {
+  color: rgb(255, 0, 0);
+}
