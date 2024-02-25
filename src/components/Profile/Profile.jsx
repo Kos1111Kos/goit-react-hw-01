@@ -1,11 +1,12 @@
-import css from "./ProfileStyle.module.css";
+import css from "./Profile.module.css";
 
-const Profile = ({ image, name, tag, location, stats }) => {
+export const Profile = ({ username, tag, location, avatar, stats }) => {
+  // const Profile = ({ image, name, tag, location, stats }) => {
   return (
     <div className={css.card}>
       <div className={css.cardCont}>
-        <img className={css.cardImg} src={image} width={260} alt="" />
-        <p className={css.cardName}>{name}</p>
+        <img className={css.cardImg} src={avatar} width={260} alt="" />
+        <p className={css.cardName}>{username}</p>
         <p className={css.cardTag}>{tag}</p>
         <p className={css.cardLocation}>{location}</p>
       </div>
@@ -15,10 +16,10 @@ const Profile = ({ image, name, tag, location, stats }) => {
           Followers: <span className={css.cardListText}>{stats.followers}</span>
         </li>
         <li className={css.cardList}>
-          Views: <span className={css.cardListText}>{stats.followers}</span>
+          Views: <span className={css.cardListText}>{stats.views}</span>
         </li>
         <li className={css.cardList}>
-          Likes: <span className={css.cardListText}>{stats.followers}</span>
+          Likes: <span className={css.cardListText}>{stats.likes}</span>
         </li>
       </ul>
     </div>
